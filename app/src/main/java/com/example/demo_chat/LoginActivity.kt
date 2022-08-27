@@ -97,7 +97,7 @@ class LoginActivity : AppCompatActivity() {
 
         }
 
-        //resendCode click: OTP
+        //resendCode click
         binding.resendCodeTv.setOnClickListener {
             val phone = binding.phoneEt.toString().trim()
             //validate phone number
